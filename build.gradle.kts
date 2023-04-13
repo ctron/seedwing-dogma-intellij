@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "io.seedwing.policy"
-version = "1.0-SNAPSHOT"
+version = "0.0.2"
 
 repositories {
     mavenCentral()
@@ -17,7 +17,7 @@ intellij {
     version.set("2022.2.4")
     type.set("IC") // Target IDE Platform
 
-    plugins.set(listOf("org.jetbrains.plugins.textmate","com.intellij.java","org.jetbrains.plugins.textmate"))
+    plugins.set(listOf("org.jetbrains.plugins.textmate","org.jetbrains.plugins.textmate"))
 }
 
 tasks {
