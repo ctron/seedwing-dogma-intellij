@@ -2,7 +2,6 @@ package io.seedwing.policy.dogma.syntax.highlighting;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import org.jetbrains.plugins.textmate.language.syntax.highlighting.TextMateEditorHighlighterProvider;
 import org.jetbrains.plugins.textmate.language.syntax.highlighting.TextMateHighlighter;
 import org.jetbrains.plugins.textmate.language.syntax.lexer.TextMateLexerDataStorage;
 
